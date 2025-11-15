@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:8000/artifacts/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./Artifacts_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Artifacts</title>
+  </head>
+  <body>
+    <style>
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+#main {
+  transition: margin-left .3s;
+}
+</style>
+
+<div id="mySidebar" class="sidebar" style="width: 250px;">
+  <a href="http://127.0.0.1:8000/bosses/">Bosses</a>
+  <a href="http://127.0.0.1:8000/artifacts/">Artifacts</a>
+  <a href="http://127.0.0.1:8000/gears/">Gears</a>
+</div>
+
+<div id="main" style="margin-left: 250px;">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+</div>
+
+<script>
+function openNav() {
+  const bar = document.getElementById("mySidebar");
+  if (bar.style.width === "250px") {
+    bar.style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  } else {
+    bar.style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+}
+</script>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:8000/artifacts/#">
+            <img src="./Artifacts_files/artworks-jplqN3RlgM9wDe1e-XwfyAQ-t500x500.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            arcane-lineage
+          </a>
+        </div>
+    </nav>
+  
+   
+   
+<h1 class="text-center my-4">Artifacts</h1>
+<div class="container d-flex flex-wrap justify-content-between">
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/Reality_Watch.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">Reality Watch 2$</h5>
+        <p class="card-text">Press the clock to save your status for 2 turns, when those rounds have passed, your energy and health will go back to what it was at moment of activating the ability.</p>
+        <a href="http://127.0.0.1:8000/artifact/1/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/Metrom27s_Amulet.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">Metrom Amulet 4$</h5>
+        <p class="card-text">Upon killing any enemy, the artifact will create an explosion that does aoe damage. This can chain react and create more explosions when an enemy dies to the amulet.</p>
+        <a href="http://127.0.0.1:8000/artifact/3/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/Stellion_Core.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">Stellian Core 6$</h5>
+        <p class="card-text">Boosts your stats when you are above 95% HP in combat</p>
+        <a href="http://127.0.0.1:8000/artifact/4/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/Chaos_Orb.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">Chaos Orb 10$</h5>
+        <p class="card-text">Each time you apply a status effect succesfully, get a 1/3 chances to land a random debuff.</p>
+        <a href="http://127.0.0.1:8000/artifact/5/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/Darksigil.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">Darksigil 5$</h5>
+        <p class="card-text">Deals damage and applies vulnerable and weaken when the user has landed status effect on the enemy more than 6 times</p>
+        <a href="http://127.0.0.1:8000/artifact/6/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      
+        <img src="./Artifacts_files/The_Void_Key.webp" class="card-img-top">
+      
+      <div class="card-body">
+        <h5 class="card-title">The Void Key 2$</h5>
+        <p class="card-text">Used to enter Metrom's vessel raid.</p>
+        <a href="http://127.0.0.1:8000/artifact/7/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+</div>
+
+  
+    <script src="./Artifacts_files/bootstrap.bundle.min.js.завантаження" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+
+</body></html>

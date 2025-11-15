@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./Головна сторінка_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Головна сторінка</title>
+  </head>
+  <body>
+    <style>
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+#main {
+  transition: margin-left .3s;
+}
+</style>
+
+<div id="mySidebar" class="sidebar">
+  <a href="http://127.0.0.1:8000/bosses/">Bosses</a>
+  <a href="http://127.0.0.1:8000/artifacts/">Artifacts</a>
+  <a href="http://127.0.0.1:8000/gears/">Gears</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+</div>
+
+<script>
+function openNav() {
+  const bar = document.getElementById("mySidebar");
+  if (bar.style.width === "250px") {
+    bar.style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  } else {
+    bar.style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+}
+</script>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:8000/#">
+            <img src="./Головна сторінка_files/artworks-jplqN3RlgM9wDe1e-XwfyAQ-t500x500.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            arcane-lineage
+          </a>
+        </div>
+    </nav>
+  
+   
+   
+<div class="container d-flex flex-wrap justify-content-between flex-row gap-3 mt-4">
+    
+    <div class="card" style="width: 18rem;">
+        <img src="./Головна сторінка_files/Site-community-image.png" class="card-img-top" alt="i made this shop in one week so dont be mat at the design!">
+        <div class="card-body">
+          <h5 class="card-title">i made this shop in one week so dont be mat at the design!</h5>
+          <p class="card-text">this is a very good game! you should try it!</p>
+          <a href="http://127.0.0.1:8000/article/7/" class="btn btn-primary">Read More</a>
+
+        </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="./Головна сторінка_files/maxresdefault.jpg" class="card-img-top" alt="Hello and welcome to my shop">
+        <div class="card-body">
+          <h5 class="card-title">Hello and welcome to my shop</h5>
+          <p class="card-text">i sell very good items here</p>
+          <a href="http://127.0.0.1:8000/article/6/" class="btn btn-primary">Read More</a>
+
+        </div>
+    </div>
+    
+</div>
+
+  
+    <script src="./Головна сторінка_files/bootstrap.bundle.min.js.завантаження" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+
+</body></html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://127.0.0.1:8000/bosses/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./Bosses_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bosses</title>
+  </head>
+  <body>
+    <style>
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+#main {
+  transition: margin-left .3s;
+}
+</style>
+
+<div id="mySidebar" class="sidebar" style="width: 250px;">
+  <a href="http://127.0.0.1:8000/bosses/">Bosses</a>
+  <a href="http://127.0.0.1:8000/artifacts/">Artifacts</a>
+  <a href="http://127.0.0.1:8000/gears/">Gears</a>
+</div>
+
+<div id="main" style="margin-left: 250px;">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+</div>
+
+<script>
+function openNav() {
+  const bar = document.getElementById("mySidebar");
+  if (bar.style.width === "250px") {
+    bar.style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  } else {
+    bar.style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+}
+</script>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:8000/bosses/#">
+            <img src="./Bosses_files/artworks-jplqN3RlgM9wDe1e-XwfyAQ-t500x500.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            arcane-lineage
+          </a>
+        </div>
+    </nav>
+  
+   
+   
+<h1 class="text-center my-4">Bosses</h1>
+<div class="container d-flex flex-wrap justify-content-between">
+  
+  <div class="card" style="width: 18rem;">
+      <img src="./Bosses_files/arkhaia.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">ARKHAIA 11$-regular 14-corrupted</h5>
+        <p class="card-text"></p>
+        <a href="http://127.0.0.1:8000/boss/2/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+  <div class="card" style="width: 18rem;">
+      <img src="./Bosses_files/seraphon.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">SERAPHON 10$-regular 13$-corrupted</h5>
+        <p class="card-text"></p>
+        <a href="http://127.0.0.1:8000/boss/3/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+  <div class="card" style="width: 18rem;">
+      <img src="./Bosses_files/metrom.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Metroms Vessel 15$-regular 20$-corrupted</h5>
+        <p class="card-text"></p>
+        <a href="http://127.0.0.1:8000/boss/4/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+  <div class="card" style="width: 18rem;">
+      <img src="./Bosses_files/thorian.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">THORIAN 4$-regular 7$-corrupted</h5>
+        <p class="card-text"></p>
+        <a href="http://127.0.0.1:8000/boss/5/" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  
+</div>
+
+  
+    <script src="./Bosses_files/bootstrap.bundle.min.js.завантаження" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+
+</body></html>
